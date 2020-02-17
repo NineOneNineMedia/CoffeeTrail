@@ -8552,7 +8552,7 @@ h5,
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
     background: #000 !important;
-    position: relative;
+    position: absolute;
     top: 0;
   }
 }
@@ -8722,7 +8722,7 @@ h5,
   left: 0;
   top: 0;
   margin-top: -130px;
-  background: #151111 !important;
+  background: black !important;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   border: none;
 }
@@ -8829,6 +8829,7 @@ h5,
 }
 
 .jumbotron .overlay {
+  height: 80vh;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -9022,15 +9023,9 @@ h5,
   color: #fff;
 }
 
-@media (min-width: 992px) {
-  .ftco-intro {
-    margin-top: -130px;
-  }
-}
-
-.ftco-intro .container-wrap {
-  z-index: 2 !important;
-  position: relative;
+.ftco-intro {
+  background-color: black;
+  height: 100%;
 }
 
 .ftco-intro .wrap {
@@ -9059,36 +9054,9 @@ h5,
   margin-bottom: 0;
 }
 
-.ftco-intro .wrap .book {
-  width: 35%;
-  background: #c49b63;
-}
-
-@media (max-width: 767.98px) {
-  .ftco-intro .wrap .book {
-    width: 100%;
-  }
-}
-
-.ftco-intro .wrap .book h3 {
-  text-transform: uppercase;
-}
-
-.ftco-intro .wrap h3 {
-  font-size: 16px;
-}
-
-.ftco-intro .wrap .text {
-  width: calc(100% - 40px);
-}
-
-.ftco-intro .wrap .icon {
-  width: 40px;
-}
-
-.ftco-intro .wrap .icon span {
-  color: #c49b63;
-  font-size: 20px;
+.ftco-about .img1 {
+  height: 100%;
+  background-image: url(images/coffee-trail-bar1.jpg);
 }
 
 .ftco-about .one-half-l {
@@ -9113,12 +9081,9 @@ h5,
   }
 }
 
-@media (min-width: 768px) {
-  .ftco-about .one-half-l .overlap-l {
-    margin-left: -150px;
-    padding: 40px;
-    background: rgba(0, 0, 0, 0.5);
-  }
+.ftco-about .one-half-l .text-bg {
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .ftco-about .one-half-r {
@@ -10091,7 +10056,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   padding: 7em 0;
-  background: #120f0f;
+  background: black;
 }
 
 .ftco-footer .ftco-footer-logo {
