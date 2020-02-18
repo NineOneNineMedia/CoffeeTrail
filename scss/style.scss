@@ -1222,52 +1222,6 @@ h5,
   }
 }
 
-//STAFF
-.staff {
-  padding: 25px;
-  border: 1px solid darken($primary, 50%);
-  @include border-radius(4px);
-  @include transition(0.3s);
-  @include media-breakpoint-down(sm) {
-    margin-bottom: 30px;
-  }
-  .info {
-    width: 100%;
-    h3 {
-      font-size: 15px;
-      text-transform: uppercase;
-      a {
-        color: $primary;
-      }
-    }
-    span.position {
-      display: block;
-      margin-bottom: 15px;
-      font-size: 12px;
-      font-weight: 400;
-      color: lighten($black, 80%);
-    }
-  }
-  .img {
-    width: 140px;
-    height: 140px;
-    border: 1px solid darken($primary, 40%);
-    margin: 0 auto;
-    @include border-radius(50%);
-    @include transition(0.3s);
-  }
-  &:hover,
-  &:focus {
-    -webkit-box-shadow: 0px 3px 66px -24px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0px 3px 66px -24px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 3px 66px -24px rgba(0, 0, 0, 0.2);
-    border: 1px solid $primary;
-    .img {
-      border: 1px solid $primary;
-    }
-  }
-}
-
 //TESTIMONY
 #ftco-testimony {
   padding-bottom: 0;
@@ -1443,10 +1397,10 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 4em 0;
   position: relative;
   @include media-breakpoint-down(sm) {
-    padding: 6em 0;
+    padding: 4em 0;
   }
 }
 
@@ -1456,7 +1410,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  padding: 7em 0;
+  padding: 4em 0;
   background: black;
   .ftco-footer-logo {
     text-transform: uppercase;
@@ -2397,7 +2351,7 @@ textarea.form-control {
   width: 100%;
   height: 100%;
   transform: none;
-  background-color: #fff;
+  background-color: #000;
   border-radius: 0;
   box-shadow: none;
 }
