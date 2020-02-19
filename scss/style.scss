@@ -77,6 +77,10 @@ h5,
   color: $primary !important;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .ftco-navbar-light {
   background: transparent !important;
   position: absolute;
@@ -613,6 +617,10 @@ h5,
       }
     }
   }
+}
+
+.bg-text {
+  background: rgba($color: #000000, $alpha: 0.3);
 }
 
 //SERVICES

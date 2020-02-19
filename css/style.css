@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Business Casual v5.0.9 (https://startbootstrap.com/template-overviews/business-casual)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
+ * Start Bootstrap - Coffee Trail v5.0.9 ()
+ * Copyright 2013-2020 Malcolm Nunley
+ * Licensed under MIT (https://github.com/BlackrockDigital/coffee-trail-website/blob/master/LICENSE)
  */
 
 /*!
@@ -8540,6 +8540,10 @@ h5,
   color: #c49b63 !important;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .ftco-navbar-light {
   background: transparent !important;
   position: absolute;
@@ -9114,6 +9118,10 @@ h5,
     padding: 40px;
     background: rgba(0, 0, 0, 0.5);
   }
+}
+
+.bg-text {
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .ftco-services {
