@@ -71,7 +71,7 @@
               <a href="courses.html" class="nav-link">LATTE ART KURZY</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">DORTY NA PRODEJ</a>
+              <a href="cakes.html" class="nav-link">DORTY NA PRODEJ</a>
             </li>
             <!-- <li class="nav-item">
               <a href="baskets.html" class="nav-link">PIKNIKOVÉ KOŠE</a>
@@ -93,8 +93,8 @@
         <div class="overlay"></div>
         <div class="row justify-content-center h-100">
           <div class="col-md-6 my-auto">
-            <h1>
-              DORTY NA PRODEJ
+            <h1 class="text-uppercase">
+              Naše kavárny
             </h1>
           </div>
         </div>
@@ -104,8 +104,8 @@
     <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-5 ftco-animate">
-            <div class="card text-center rounded-0 py-4 bg-text">
+          <div class="col-md-6 ftco-animate ">
+            <div class="card text-center rounded-0 bg-text">
               <img
                 src="images/coffee-trail-bar1.jpg"
                 class="card-img rounded-0 p-0"
@@ -113,33 +113,20 @@
               />
               <div class="card-body">
                 <h1 class="text-primary">
-                  Vyzkoušejte Naše Dorty!
+                  Coffee Trail Bar
                 </h1>
-                <h5 class="pt-4">
-                  OBJEDNÁVKY:
-                </h5>
-                <ul class="list-group list-group-flush">
-                  <li
-                    class="list-group-item bg-transparent text-white border-0 p-0"
-                  >
-                    Telefonicky: +420 777 020 619
-                  </li>
-                  <li
-                    class="list-group-item bg-transparent text-white border-0 p-0"
-                  >
-                    Email: coffeetrailbrno@gmail.com
-                  </li>
-                  <li
-                    class="list-group-item bg-transparent text-white border-0 p-0"
-                  >
-                    Na jendé z našich poboček
-                  </li>
-                </ul>
+                <h5>Štefánikova 63/22 , Brno, 61200, Czech Republic</h5>
+                <h5>+420 770 181 482</h5>
+                <a href="#"
+                  ><button type="button" class="btn btn-primary btn-lg">
+                    View Menu
+                  </button></a
+                >
               </div>
             </div>
           </div>
-          <div class="col-md-5 ftco-animate">
-            <div class="card text-center rounded-0 py-4 bg-text">
+          <div class="col-md-6 ftco-animate">
+            <div class="card text-center rounded-0 bg-text">
               <img
                 src="images/coffee-trail-Lidicka1.jpg"
                 class="card-img rounded-0"
@@ -147,30 +134,41 @@
               />
               <div class="card-body">
                 <h1 class="text-primary">
-                  Vyzkoušejte Naše Dorty!
+                  Coffee Trail Lidická
                 </h1>
-                <h5 class="pt-4">
-                  OBJEDNÁVKY:
-                </h5>
-                <ul class="list-group list-group-flush">
-                  <li
-                    class="list-group-item bg-transparent text-white border-0 p-0"
-                  >
-                    Telefonicky: +420 777 020 619
-                  </li>
-                  <li
-                    class="list-group-item bg-transparent text-white border-0 p-0"
-                  >
-                    Email: coffeetrailbrno@gmail.com
-                  </li>
-                  <li
-                    class="list-group-item bg-transparent text-white border-0 p-0"
-                  >
-                    Na jendé z našich poboček
-                  </li>
-                </ul>
+                <h5>Lidická 46, Brno, 60200, Czech Republic</h5>
+                <h5>+420 770 197 088</h5>
+                <a href="#"
+                  ><button type="button" class="btn btn-primary btn-lg">
+                    View Menu
+                  </button></a
+                >
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <div class="galleria">
+              <img src="images/burger-1.jpg" />
+              <img src="images/burger-1.jpg" />
+              <img src="images/burger-1.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <div id="map"></div>
           </div>
         </div>
       </div>
@@ -352,9 +350,24 @@
     <script src="js/jquery.animateNumber.min.js"></script>
     <script src="js/bootstrap-datepicker.js"></script>
     <script src="js/jquery.timepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
+
     <script src="js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgliJY0H2s&sensor=false"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrClJDIShY0yeFIZ-ZFOWuk2n2Wk77r18&callback=initMap"
+      type="text/javascript"
+    ></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      (function() {
+        Galleria.loadTheme(
+          "https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js"
+        );
+        Galleria.run(".galleria");
+      })();
+    </script>
   </body>
 </html>

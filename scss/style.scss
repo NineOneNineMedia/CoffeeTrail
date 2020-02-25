@@ -73,6 +73,10 @@ h5,
   font-family: $font-secondary;
 }
 
+#map {
+  height: 500px;
+}
+
 .text-primary {
   color: $primary !important;
 }
@@ -568,6 +572,11 @@ ul {
       }
     }
   }
+}
+
+.galleria {
+  height: 500px;
+  width: 100%;
 }
 
 //ABOUT
