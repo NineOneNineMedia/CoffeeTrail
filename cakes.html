@@ -37,6 +37,7 @@
 
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/galleria.classic.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -46,7 +47,7 @@
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"
-          ><img class="logo" src="images/trail logo3.png"
+          ><img class="logo" src="images/logos/trail logo3.png"
         /></a>
         <button
           class="navbar-toggler"
@@ -73,9 +74,6 @@
             <li class="nav-item active">
               <a href="#" class="nav-link">DORTY NA PRODEJ</a>
             </li>
-            <!-- <li class="nav-item">
-              <a href="baskets.html" class="nav-link">PIKNIKOVÉ KOŠE</a>
-            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="locations.html">Lokace</a>
             </li>
@@ -101,11 +99,11 @@
       </div>
     </div>
 
-    <section class="ftco-section">
+    <section class="ftco-section pb-0">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-10 ftco-animate">
-            <div class="card text-center rounded-0 py-4 bg-text">
+            <div class="card text-center rounded-0 py-4 bg-black">
               <div class="card-body">
                 <h1 class="text-primary">
                   Vyzkoušejte Naše Dorty!
@@ -147,16 +145,41 @@
       </div>
     </section>
 
+    <section class="ftco-section pt-0">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="galleria">
+              <img src="images/cakes/CTcake1.jpg" />
+              <img src="images/cakes/CTcake2.jpg" />
+              <img src="images/cakes/CTcake3.jpg" />
+              <img src="images/cakes/CTcake4.jpg" />
+              <img src="images/cakes/CTcake5.jpg" />
+              <img src="images/cakes/CTcake6.jpg" />
+              <img src="images/cakes/CTcake7.jpg" />
+              <img src="images/cakes/CTcake8.jpg" />
+              <img src="images/cakes/CTcake9.jpg" />
+              <img src="images/cakes/CTcake10.jpg" />
+              <img src="images/cakes/CTcake11.jpg" />
+              <img src="images/cakes/CTcake12.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer class="ftco-footer ftco-section img">
       <div class="overlay"></div>
       <div class="container">
         <div class="row mb-2">
           <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">About Us</h2>
+              <h2 class="ftco-heading-2">
+                Coffee Trail
+              </h2>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+                Všechno s láskou a úsměvem
+                <span style="font-size:100%;color:red;">&hearts;</span>
               </p>
             </div>
           </div>
@@ -324,8 +347,20 @@
     <script src="js/bootstrap-datepicker.js"></script>
     <script src="js/jquery.timepicker.min.js"></script>
     <script src="js/scrollax.min.js"></script>
+    <script src="js/galleria.min.js"></script>
+    <script src="js/galleria.classic.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgliJY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      (function() {
+        Galleria.loadTheme("js/galleria.classic.min.js");
+        Galleria.run(".galleria", {
+          autoplay: "True",
+          transition: "fade",
+          transitionSpeed: "1000"
+        });
+      })();
+    </script>
   </body>
 </html>

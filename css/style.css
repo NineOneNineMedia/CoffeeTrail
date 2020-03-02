@@ -8544,6 +8544,10 @@ h5,
   color: #c49b63 !important;
 }
 
+.bg-black {
+  background-color: #000000;
+}
+
 ul {
   list-style-type: none;
 }
@@ -8832,6 +8836,7 @@ ul {
 .jumbotron {
   height: 80vh;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
   color: white;
 }
@@ -9140,6 +9145,11 @@ ul {
 
 .ftco-services .heading-section h2 {
   color: black;
+}
+
+.ftco-services .services-img {
+  height: 250px;
+  width: auto;
 }
 
 .services .icon {

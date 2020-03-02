@@ -81,6 +81,10 @@ h5,
   color: $primary !important;
 }
 
+.bg-black {
+  background-color: #000000;
+}
+
 ul {
   list-style-type: none;
 }
@@ -356,6 +360,7 @@ ul {
 .jumbotron {
   height: 80vh;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
   color: white;
 
@@ -641,6 +646,10 @@ ul {
     h2 {
       color: darken($primary, 70%);
     }
+  }
+  .services-img {
+    height: 250px;
+    width: auto;
   }
 }
 .services {
