@@ -390,7 +390,11 @@
     <script>
       (function() {
         Galleria.loadTheme("js/galleria.classic.min.js");
-        Galleria.run(".galleria");
+        Galleria.run(".galleria", {
+          autoplay: "True",
+          transition: "fade",
+          transitionSpeed: "1000"
+        });
       })();
     </script>
   </body>
