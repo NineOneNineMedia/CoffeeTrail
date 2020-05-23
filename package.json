@@ -1,7 +1,6 @@
 {
   "title": "Coffee Trail",
   "name": "coffee-trail-website",
-  "version": "5.0.9",
   "scripts": {
     "start": "node_modules/.bin/gulp watch"
   },
@@ -10,7 +9,7 @@
   "author": "Malcolm Nunley",
   "dependencies": {
     "bootstrap": "4.3.1",
-    "jquery": "3.4.1"
+    "jquery": "^3.5.1"
   },
   "devDependencies": {
     "browser-sync": "2.26.7",
